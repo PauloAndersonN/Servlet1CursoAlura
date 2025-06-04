@@ -8,7 +8,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 /**
- * Servlet implementation class RemoveEmpresaServlet
+ * Servlet responsável por remover empresas do banco em memória.
  */
 @WebServlet("/removeEmpresa")
 public class RemoveEmpresaServlet extends HttpServlet {
